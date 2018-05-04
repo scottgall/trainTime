@@ -1,0 +1,22 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.panel {
+    background: none;
+}
+.panel-body, .jumbotron {
+    background: rgba(255, 249, 192, 0.7); 
+}
+.form-control, .btn, .panel-default > .panel-heading {
+    background: rgb(252, 253, 255, .8)
+}
+.form-control {
+    margin-bottom: 10px;
+}
+.jumbotron {
+    padding: 10px;
+}
